@@ -63,3 +63,20 @@ print(a,b)
 # c = a + b
 # a = a - c
 # b = c - b
+
+# transtypage
+foo = "123"
+foo = int(foo)
+print(type(foo))
+foo = float(foo)
+print(type(foo))
+# float vers str
+foo = 3.14
+foo = str(foo)
+print(foo)
+
+#
+foo = 2.71
+a = int(foo)
+b = foo % 2
+print(a, b)
