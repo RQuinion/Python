@@ -12,3 +12,5 @@ tax_rate = 20
 
 # réponse 3.7
 
+montant_tva = price * tax_rate / 100
+print(montant_tva)

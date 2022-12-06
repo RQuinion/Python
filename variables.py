@@ -81,3 +81,24 @@ a = int(foo)
 b = foo - a
 print(a, b)
 
+# transtypage (type casting) conversion d'un type de données
+# 0 donne false et tous les autres chiffes donnent true
+my_number7 = 1
+print(bool(my_number7))
+#complétion implicite en booléen
+if my_number7:
+    print("autre que 0")
+else:
+    print("0")
+
+# listes
+fruits = ['ananas', 'banane', 'cerise']
+# opérateur d'inclusion
+result = 'ananas' in fruits
+print(result)
+result = 'fraise' in fruits
+print(result)
+if fruits:
+    print("fruits")
+else:
+    print("pas de fruits")

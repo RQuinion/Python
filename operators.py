@@ -96,4 +96,4 @@ print(result)
 result = not False
 print(result)
 
-
+print(bool(None))

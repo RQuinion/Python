@@ -15,3 +15,5 @@ price_beta = 1.70
 
 # réponse 3.9
 
+weight_alpha = 
+weight_beta = 
