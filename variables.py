@@ -78,5 +78,6 @@ print(foo)
 #
 foo = 2.71
 a = int(foo)
-b = foo % 2
+b = foo - a
 print(a, b)
+

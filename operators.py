@@ -39,3 +39,61 @@ print(foo)
 foo = math.sqrt(4)
 foo = 4 ** (1/2)
 print(foo)
+
+# les opérateurs de comparaison, ne pas confondre avec l'affectation
+# ou l'identité === qui n'existe pas en python
+result = 1 == 1
+print(result)
+
+#les grandeurs
+result = 123 < 42
+print(result)
+
+result = 123 <= 42
+print(result)
+
+result = 123 != 42
+print(result)
+
+# les intervalles
+# < > ou <= =>
+my_number = random.randint(0,100)
+result = 0 <= my_number < 50
+print (result)
+result = 50  < my_number <= 100
+print(result)
+
+# opérateur and
+result = True and False
+print(result)
+result = False and True
+print(result)
+result = True and True
+print(result)
+result = False and False
+print(result)
+
+#on peut utiliser d'auytres types de données
+a = random.randint(0,1)
+b = random.randint(0,1)
+result = bool(a) and bool(b)
+print(a, b)
+print(result)
+
+# opérateur or
+result = True or False
+print(result)
+result = False or True
+print(result)
+result = True or True
+print(result)
+result = False or False
+print(result)
+
+# opérateur not (négation)
+result = not True
+print(result)
+result = not False
+print(result)
+
+
